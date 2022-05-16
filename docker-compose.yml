@@ -5,10 +5,7 @@ services:
       - "8080:80"
     volumes:
       - ./code:/code
-<<<<<<< HEAD
       - ./code:/lab_2
-=======
->>>>>>> 56ff481e37dbb6edbd4a344ac1d1eceb9368c6d8
       - ./hosts:/etc/nginx/conf.d
     links:
       - php
@@ -16,7 +13,4 @@ services:
     image: php:7-fpm
     volumes:
       - ./code:/code
-<<<<<<< HEAD
       - ./code:/lab_2
-=======
->>>>>>> 56ff481e37dbb6edbd4a344ac1d1eceb9368c6d8
