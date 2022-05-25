@@ -7,4 +7,4 @@ if (preg_match($regex, "ahb acb aeb aeeb adcb axeb") >= 1) {
 //task B
 $regexSec = "/(\d)+/";
 $str = "a1b2c3";
-echo preg_replace_callback($regexSec, fn ($matches) => intval($matches[0]) ** 2, $str);
+echo preg_replace_callback($regexSec, fn ($matches) => intval($matches[0]) ** 3, $str);
