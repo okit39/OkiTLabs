@@ -60,10 +60,10 @@ $num = 30;
 $divisors = [];
 echo nl2br("Делители числа {$num}:\n");
 
-for ($i=1; $i<=$num; $i++){  
-    if ($num % $i==0)      
-      echo " $i ";
-    }
+for ($i = 1; $i <= $num; $i++) {
+    if ($num % $i == 0)
+        echo " $i ";
+}
 echo nl2br("\n");
 
 $arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
